@@ -7,6 +7,61 @@
     <title>Submit Page</title>
 </head>
 <body>
-    <h1 align="center">You Have SccessFully Compleyed The Form</h1>
+    <section >
+        <h2 align="center">Registration Form</h2>
+    <form align="center">
+        <table align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">female</label>
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="Other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Language:</td>
+                <td>
+                    <select id="language" name="language">
+                        <option value="">Select langage</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="english">English</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip Code:</td>
+                <td><input type="number" id="zip" name="zip"></td>
+            </tr>
+            <tr>
+                <td>About:</td>
+                <td><textarea id="about" name="about" rows="4" cols="50" placeholder="Write about yourself..."></textarea></td>
+            </tr>
+            <tr>
+
+               <td align="center"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
