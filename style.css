@@ -1,0 +1,46 @@
+::selection{
+    color:gold;
+    background-color: brown;
+}
+
+body{  
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-image:url(gym3.png);
+background-repeat: no-repeat;
+background-size: 1264px;   
+
+}
+.gridbox{
+    display: grid;
+    grid-template-columns:auto auto  auto;
+    background-color: rgb(19, 96, 102);
+
+    padding:10px;
+    gap:10px;
+    /* background-image:url(div.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1264px; */
+  
+}
+.gridbox > div{
+    text-align:center;
+
+}
+.gridbox:hover div{
+    display: block;
+height: 300px;
+}
+.box{
+    display: none;
+    background-image:url(div.jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.box::first-letter{
+    color:blue;
+    font-size:x-large
+}
+.box:hover{
+    font-size:30px
+}
+
