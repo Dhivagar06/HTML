@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch("googledata.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
